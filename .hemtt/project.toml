@@ -1,0 +1,21 @@
+name = "420th Customizations"
+author = "thegamecracks"
+prefix = "fdelta"
+mainprefix = "z"
+
+[version]
+major = 2025
+minor = 8
+patch = 27
+
+[files]
+include = [
+    "logo.jpg",
+    "README.md",
+]
+
+[hemtt.build]
+pdrive = "disallow"
+
+[hemtt.check]
+pdrive = "ignore"

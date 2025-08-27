@@ -1,0 +1,11 @@
+name = "420th Customizations";
+author = "thegamecracks";
+tooltip = "420th Customizations";
+tooltipOwned = "420th Customizations";
+actionName = "GitHub";
+action = "https://github.com/thegamecracks/420th-Customizations";
+overview = "";
+// logo = "logo.jpg";
+// logoOver = "logo.jpg";
+// logoSmall = "logo.jpg";
+// picture = "logo.jpg";
