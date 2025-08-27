@@ -6,8 +6,10 @@ class CfgPatches {
 
         requiredVersion = 2.20;
         requiredAddons[] = {
-            "A3_Characters_F_Orange",
-            "A3_Supplies_F_AoW_Bags",
+            // "A3_Characters_F_Orange",
+            // "A3_Supplies_F_AoW_Bags",
+            "A3_Data_F_AoW_Loadorder",
+            "A3_Data_F_Orange_Loadorder",
         };
         skipWhenMissingDependencies = 0;
 
