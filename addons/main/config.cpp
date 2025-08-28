@@ -18,15 +18,18 @@ class CfgPatches {
 };
 
 class CfgVehicles {
+    class Bag_Base;
     // B_CivilianBackpack_01_Sport_Red_F
-    class B_CivilianBackpack_01_Base_F {
+    class B_CivilianBackpack_01_Base_F : Bag_Base {
         maximumLoad = 300; // 240
     };
 };
 
 class CfgWeapons {
-    class U_C_Paramedic_01_F {
-        class ItemInfo {
+    class Uniform_Base;
+    class UniformItem;
+    class U_C_Paramedic_01_F : Uniform_Base {
+        class ItemInfo : UniformItem {
             containerClass = "Supply500"; // "Supply30"
         };
     };
