@@ -15,13 +15,15 @@ An Arma 3 mod for the 420th Delta community.
 
 ## Installation
 
-To build the mod from source, install [HEMTT] and run either of these commands:
+To build the mod from source, install [HEMTT] and run the following command:
 
 ```sh
 hemtt build
-# or:
-hemtt release
 ```
+
+You can also build the mod for release with `hemtt release`, but you will need
+to remove the `[signing]` configuration in project.toml to generate an ephemeral
+signing key.
 
 [HEMTT]: https://github.com/brettmayson/HEMTT
 
