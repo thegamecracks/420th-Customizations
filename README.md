@@ -2,6 +2,12 @@
 
 An Arma 3 mod for the 420th Delta community.
 
+<p align="center">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3647324436">
+        <img src="logo.jpg">
+    </a>
+</p>
+
 ## Features
 
 - Increased capacity of Paramedic Outfit (30 => 500, 16.67x)
