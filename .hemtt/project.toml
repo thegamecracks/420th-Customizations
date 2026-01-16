@@ -4,9 +4,9 @@ prefix = "fdelta"
 mainprefix = "z"
 
 [version]
-major = 2025
-minor = 8
-patch = 27
+major = 2026
+minor = 1
+patch = 15
 
 [files]
 include = [
