@@ -19,3 +19,6 @@ pdrive = "disallow"
 
 [hemtt.check]
 pdrive = "ignore"
+
+[signing]
+private_key_hash = "492e44ab7e8c33da235232d06e4e191565937c81"
