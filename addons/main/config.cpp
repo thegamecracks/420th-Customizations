@@ -19,7 +19,7 @@ class CfgVehicles {
     class Bag_Base;
     // B_CivilianBackpack_01_Sport_Red_F
     class B_CivilianBackpack_01_Base_F : Bag_Base {
-        maximumLoad = 300; // 240
+        maximumLoad = 320; // 240
     };
 };
 
