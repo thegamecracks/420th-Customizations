@@ -5,8 +5,10 @@ class CfgPatches {
         url = "https://github.com/thegamecracks/420th-Customizations";
 
         requiredVersion = 2.20;
-        requiredAddons[] = {};
-        skipWhenMissingDependencies = 0;
+        requiredAddons[] = {
+            "cba_jam",
+        };
+        skipWhenMissingDependencies = 1;
 
         units[] = {};
     };
