@@ -9,6 +9,7 @@ class CfgPatches {
             "cba_jam",
         };
         skipWhenMissingDependencies = 1;
+        skipWhenAnyAddonPresent[] = {"vmagcompatibility"};
 
         units[] = {};
     };
