@@ -17,7 +17,7 @@ class CfgPatches {
 
 class CfgMagazineWells {
     class CBA_556x45_STANAG {
-        BI_magss[] = {
+        BI_mags[] = {
             "150Rnd_556x45_Drum_Green_Mag_F",
             "150Rnd_556x45_Drum_Green_Mag_Tracer_F",
             "150Rnd_556x45_Drum_Sand_Mag_F",
