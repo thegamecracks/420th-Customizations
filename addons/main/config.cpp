@@ -36,6 +36,19 @@ class CfgVehicles {
 };
 
 class CfgWeapons {
+    // class ItemCore;
+    // class MedikitItem;
+    // class Medikit : ItemCore {
+    //     class ItemInfo : MedikitItem {
+    //         mass = 8;
+    //     };
+    // };
+    // class ToolKitItem;
+    // class ToolKit : ItemCore {
+    //     class ItemInfo : ToolKitItem {
+    //          mass = 8;
+    //     };
+    // };
     class Uniform_Base;
     class UniformItem;
     class U_B_CBRN_Suit_01_MTP_F : Uniform_Base {
