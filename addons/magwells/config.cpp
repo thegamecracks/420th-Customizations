@@ -333,6 +333,11 @@ class CfgMagazineWells {
             "5Rnd_127x108_APDS_Mag",
         };
     };
+    class UGL_40x36 {
+        BI_gredammo[] = {
+            MAGAZINES_3GL
+        };
+    };
     class CBA_40mm_GP {
         BI_gredammo[] = {
             MAGAZINES_GL
