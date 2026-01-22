@@ -15,14 +15,14 @@ class CfgPatches {
     };
 };
 
-class ItemCore;
-class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class MuzzleSlot;
-class PointerSlot;
+// class ItemCore;
+// class Mode_SemiAuto;
+// class Mode_Burst;
+// class Mode_FullAuto;
+// class SlotInfo;
+// class CowsSlot;
+// class MuzzleSlot;
+// class PointerSlot;
 class CfgMagazineWells {
     class CBA_762x25_PPSh_Stick {
         BI_mags[] = {
@@ -95,11 +95,11 @@ class CfgMagazineWells {
 };
 class CfgWeapons {
     class Rifle;
-    class UGL_F;
+    // class UGL_F;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-        class GunParticles;
-        class Eventhandlers;
+        // class WeaponSlotsInfo;
+        // class GunParticles;
+        // class Eventhandlers;
     };
     class vn_rifle: Rifle_Base_F {
         class vn_ugl;
