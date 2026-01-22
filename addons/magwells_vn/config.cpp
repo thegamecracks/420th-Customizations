@@ -25,7 +25,7 @@ class CfgPatches {
 // class PointerSlot;
 class CfgMagazineWells {
     class CBA_762x25_PPSh_Stick {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "30Rnd_9x21_Mag_SMG_02",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Red",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Yellow",
@@ -37,7 +37,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_9x19_MP40 {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "30Rnd_9x21_Mag_SMG_02",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Red",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Yellow",
@@ -49,32 +49,32 @@ class CfgMagazineWells {
         };
     };
     class CBA_762x54R_Mosin {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "10Rnd_762x54_Mag",
         };
     };
     class CBA_3006_Garand {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "10Rnd_762x54_Mag",
         };
     };
     class CBA_792x57_K98 {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "10Rnd_762x54_Mag",
         };
     };
     class CBA_762x39_SKS {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "10Rnd_762x54_Mag",
         };
     };
     class CBA_30Carbine_M1Carbine {
-        BI_mags[] = {
+        fdelta_magwells_vn_magazines[] = {
             "20Rnd_650x39_Cased_Mag_F",
         };
     };
     class UGL_40x36 {
-        VN_gredammo[] = {
+        fdelta_magwells_vn_magazines[] = {
             "vn_40mm_m381_he_mag",
             "vn_40mm_m406_he_mag",
             "vn_40mm_m397_ab_mag",

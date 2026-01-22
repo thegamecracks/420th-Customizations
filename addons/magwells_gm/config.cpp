@@ -37,23 +37,23 @@ class CfgPatches {
 
 class CfgMagazineWells {
     class gm_magazineWell_473x33mm_g11 {
-        BI_mags[] = {
+        fdelta_magwells_gm_magazines[] = {
             "30Rnd_65x39_caseless_green_mag_Tracer",
             "30Rnd_65x39_caseless_green",
         };
     };
     class gm_magazineWell_556x45mm_hk33 {
-        BI_mags[] = {
+        fdelta_magwells_gm_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class gm_magazineWell_556x45mm_sg550 {
-        BI_mags[] = {
+        fdelta_magwells_gm_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class gm_magazineWell_762x51mm_mg8 {
-        BI_links[] = {
+        fdelta_magwells_gm_magazines[] = {
             "150Rnd_762x51_Box",
             "150Rnd_762x51_Box_Tracer",
             "150Rnd_762x54_Box",
@@ -61,7 +61,7 @@ class CfgMagazineWells {
         };
     };
     class gm_magazineWell_762x51mm_sg542 {
-        BI_mags[] = {
+        fdelta_magwells_gm_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };

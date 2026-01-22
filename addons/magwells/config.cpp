@@ -71,57 +71,57 @@ class CfgPatches {
 
 class CfgMagazineWells {
     class CBA_556x45_STANAG {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_G36 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_SG550 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_STEYR {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_HK33 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_AK {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_FAMAS {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_GALIL {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class 556x45_Velko {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_556x45_M21 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
     class CBA_68SPC_STANAG {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_556x45
         };
     };
@@ -144,7 +144,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_762x39_VZ58 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "30Rnd_762x39_Mag_F",
             "30Rnd_762x39_Mag_Green_F",
             "30Rnd_762x39_Mag_Tracer_F",
@@ -166,7 +166,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_762x51_5rnds {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "7Rnd_408_Mag",
         };
     };
@@ -189,78 +189,78 @@ class CfgMagazineWells {
         };
     };
     class CBA_762x51_MkI_EMR {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
         };
     };
     class CBA_762x51_SIGAMT {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_762x51_SCAR {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_762x51_G3 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_762x51_FAL {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class SLR_762x51 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_762x51_HK417 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_762x51_AR10 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_3006_Spring {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_75x55_STGW57 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
             "20Rnd_762x51_Mag",
         };
     };
     class CBA_300WM_AI {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_338_Mag",
             "7Rnd_408_Mag",
         };
     };
     class CBA_300WM_AICS {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_338_Mag",
             "7Rnd_408_Mag",
         };
     };
     class CBA_9x19_Vityaz {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "30Rnd_9x21_Mag_SMG_02",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Red",
             "30Rnd_9x21_Mag_SMG_02_Tracer_Yellow",
@@ -272,7 +272,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_45ACP_Grease {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "30Rnd_45ACP_Mag_SMG_01",
             "30Rnd_45ACP_Mag_SMG_01_tracer_green",
             "30Rnd_45ACP_Mag_SMG_01_Tracer_Red",
@@ -280,7 +280,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_45ACP_Thompson_Stick {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "30Rnd_45ACP_Mag_SMG_01",
             "30Rnd_45ACP_Mag_SMG_01_tracer_green",
             "30Rnd_45ACP_Mag_SMG_01_Tracer_Red",
@@ -288,7 +288,7 @@ class CfgMagazineWells {
         };
     };
     class CBA_46x30_MP7 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "30Rnd_45ACP_Mag_SMG_01",
             "30Rnd_45ACP_Mag_SMG_01_tracer_green",
             "30Rnd_45ACP_Mag_SMG_01_Tracer_Red",
@@ -304,48 +304,48 @@ class CfgMagazineWells {
         };
     };
     class CBA_9x39_VSS {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_50BW_Mag_F",
             "10Rnd_127x54_Mag",
         };
     };
     class ASH12_127x55_RF {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "10Rnd_50BW_Mag_F",
             "10Rnd_127x54_Mag",
         };
     };
     class CBA_50BMG_M107 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "5Rnd_127x108_Mag",
             "5Rnd_127x108_APDS_Mag",
         };
     };
     class CBA_50BMG_AS50 {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "5Rnd_127x108_Mag",
             "5Rnd_127x108_APDS_Mag",
         };
     };
     class CBA_127x108_KSVK {
-        BI_mags[] = {
+        fdelta_magwells_magazines[] = {
             "5Rnd_127x108_Mag",
             "5Rnd_127x108_APDS_Mag",
         };
     };
     class UGL_40x36 {
-        BI_gredammo[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_3GL
         };
     };
     class CBA_40mm_GP {
-        BI_gredammo[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_GL
             MAGAZINES_3GL
         };
     };
     class CBA_40mm_M203_6rnds {
-        BI_gredammo[] = {
+        fdelta_magwells_magazines[] = {
             MAGAZINES_GL
             MAGAZINES_3GL
         };
