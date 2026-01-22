@@ -38,6 +38,21 @@ class CfgVehicles {
 class CfgWeapons {
     class Uniform_Base;
     class UniformItem;
+    class U_B_CBRN_Suit_01_MTP_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_B_CBRN_Suit_01_Tropic_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_B_CBRN_Suit_01_Wdl_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
     class U_C_ArtTShirt_01_v1_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply80"; // "Supply20"
@@ -66,6 +81,16 @@ class CfgWeapons {
     class U_C_ArtTShirt_01_v6_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_CBRN_Suit_01_Blue_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_C_CBRN_Suit_01_White_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
         };
     };
     class U_C_FormalSuit_01_black_F : Uniform_Base {
@@ -101,6 +126,16 @@ class CfgWeapons {
     class U_C_Paramedic_01_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply500"; // "Supply30"
+        };
+    };
+    class U_I_CBRN_Suit_01_AAF_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_I_E_CBRN_Suit_01_EAF_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
         };
     };
     class Vest_Camo_Base;
