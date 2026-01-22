@@ -10,9 +10,28 @@ An Arma 3 mod for the 420th Delta community.
 
 ## Features
 
-- Increased capacity of Paramedic Outfit (30 => 500, 16.67x)
-- Increased capacity of Everyday/Sports Backpacks (240 => 320, 1.33x)
-- Allowed loading vanilla magazines into modded weapons (CUP, NIArms, RHS, SOG)
+- Increased capacity of various vanilla clothing (see [Capacity Changes](#capacity-changes))
+- Allowed loading vanilla magazines into modded weapons (CUP, NIArms, RHS, SOG, GM)
+- Allowed loading modded pylons onto vanilla aircraft (CUP, RHS)
+- Allowed attaching RHS grips on NIArms weaponry
+
+## Capacity Changes
+
+| Item                 | Original | New | Ratio  |
+| -------------------- | --------:| ---:| ------:|
+| Aid Worker Clothes   |       30 | 120 |     4x |
+| Assault Pack         |      160 | 320 |     2x |
+| Casual Clothes (AoW) |       20 |  80 |     4x |
+| CBRN Suit            |       30 | 120 |     4x |
+| Everyday Backpack    |      240 | 320 |  1.33x |
+| Farmer Outfit        |       20 |  80 |     4x |
+| Field Pack           |      200 | 320 |   1.6x |
+| Formal Suit          |       20 |  80 |     4x |
+| Leg Strap Bag (Back) |       80 | 320 |     4x |
+| Leg Strap Bag (Vest) |       80 | 300 |  3.75x |
+| Messenger Bag        |      140 | 320 |  2.29x |
+| Paramedic Outfit     |       30 | 500 | 16.67x |
+| Sports Backpack      |      240 | 320 |  1.33x |
 
 ## Installation
 
