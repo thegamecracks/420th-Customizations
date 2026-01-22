@@ -128,6 +128,11 @@ class CfgWeapons {
             containerClass = "Supply500"; // "Supply30"
         };
     };
+    class U_C_Uniform_Farmer_01_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
     class U_I_CBRN_Suit_01_AAF_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply120"; // "Supply30"
