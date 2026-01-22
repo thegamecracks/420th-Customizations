@@ -68,6 +68,36 @@ class CfgWeapons {
             containerClass = "Supply80"; // "Supply20"
         };
     };
+    class U_C_FormalSuit_01_black_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_FormalSuit_01_blue_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_FormalSuit_01_gray_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_FormalSuit_01_khaki_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_FormalSuit_01_tshirt_black_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_FormalSuit_01_tshirt_gray_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
     class U_C_Paramedic_01_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply500"; // "Supply30"
