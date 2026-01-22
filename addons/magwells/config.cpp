@@ -350,6 +350,12 @@ class CfgMagazineWells {
             "3Rnd_UGL_FlareCIR_F",
         };
     };
+    class CBA_40mm_GP {
+        BI_gredammo[] = {
+            MAGAZINES_GL
+            MAGAZINES_3GL
+        };
+    };
     class CBA_40mm_M203_6rnds {
         BI_gredammo[] = {
             MAGAZINES_GL
