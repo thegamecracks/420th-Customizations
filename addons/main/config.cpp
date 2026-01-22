@@ -27,6 +27,9 @@ class CfgVehicles {
     class B_LegStrapBag_base_F : Bag_Base {
         maximumLoad = 320; // 80
     };
+    class B_AssaultPack_Base: Bag_Base {
+        maximumLoad = 320; // 160
+    };
 };
 
 class CfgWeapons {
