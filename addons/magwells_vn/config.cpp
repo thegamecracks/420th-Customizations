@@ -96,37 +96,37 @@ class CfgMagazineWells {
 class CfgWeapons {
     class Rifle;
     // class UGL_F;
-    class Rifle_Base_F: Rifle {
+    class Rifle_Base_F : Rifle {
         // class WeaponSlotsInfo;
         // class GunParticles;
         // class Eventhandlers;
     };
-    class vn_rifle: Rifle_Base_F {
+    class vn_rifle : Rifle_Base_F {
         class vn_ugl;
-        class vn_m203_muzzle: vn_ugl {
+        class vn_m203_muzzle : vn_ugl {
             magazineWell[] = {
                 "CBA_40mm_M203"
             };
         };
-        class vn_m79_muzzle: vn_ugl {
+        class vn_m79_muzzle : vn_ugl {
             magazineWell[] = {
                 "CBA_40mm_M203"
             };
         };
     };
-    class vn_smg: vn_rifle {
+    class vn_smg : vn_rifle {
             magazineWell[] = {
                 "CBA_9x19_ScorpionEvo3"
             };
     };
-    class vn_pps52: vn_smg {
+    class vn_pps52 : vn_smg {
     };
-    class vn_mc10: vn_pps52 {
+    class vn_mc10 : vn_pps52 {
             magazineWell[] = {
                 "CBA_9x19_ScorpionEvo3"
             };
     };
-    class vn_m63a: vn_rifle {
+    class vn_m63a : vn_rifle {
         magazines[] = {
             "vn_m63a_30_mag",
             "vn_m63a_30_t_mag",
@@ -150,7 +150,7 @@ class CfgWeapons {
             "150Rnd_556x45_Drum_Mag_Tracer_F"
         };
     };
-    class vn_m63a_lmg: vn_rifle {
+    class vn_m63a_lmg : vn_rifle {
         magazines[] = {
             "vn_m63a_100_mag",
             "vn_m63a_100_t_mag",
@@ -160,7 +160,7 @@ class CfgWeapons {
             "200Rnd_556x45_Box_Tracer_Red_F",
         };
     };
-    class vn_m63a_cdo: vn_m63a_lmg {
+    class vn_m63a_cdo : vn_m63a_lmg {
         magazines[] = {
             "vn_m63a_150_mag",
             "vn_m63a_150_t_mag",
@@ -170,41 +170,41 @@ class CfgWeapons {
             "200Rnd_556x45_Box_Tracer_Red_F",
         };
     };
-    class vn_rifle762: vn_rifle {
+    class vn_rifle762 : vn_rifle {
         magazineWell[] = {
             "CBA_762x54R_SVD",
         };
     };
-    class vn_l1a1_01: vn_rifle762 {
+    class vn_l1a1_01 : vn_rifle762 {
         magazineWell[] = {
             "CBA_762x51_FAL",
         };
     };
-    class vn_svd: vn_rifle762 {
+    class vn_svd : vn_rifle762 {
         magazineWell[] = {
             "CBA_762x54R_SVD",
         };
     };
-    class vn_lmg: vn_rifle {
+    class vn_lmg : vn_rifle {
     };
-    class vn_l4: vn_lmg {
+    class vn_l4 : vn_lmg {
         magazineWell[] = {
             "CBA_762x51_FAL",
         };
     };
-    class vn_m1918: vn_lmg {
+    class vn_m1918 : vn_lmg {
         magazineWell[] = {
             "CBA_762x51_MkI_EMR",
         };
     };
-    class vn_rpd: vn_lmg {
+    class vn_rpd : vn_lmg {
         magazineWell[] = {
             "CBA_762x54R_LINKS",
             "CBA_762x51_LINKS"
 
         };
     };
-    class vn_mg42: vn_lmg {
+    class vn_mg42 : vn_lmg {
         magazineWell[] = {
             "CBA_762x54R_LINKS",
             "CBA_762x51_LINKS",
