@@ -74,7 +74,7 @@ class CfgMagazineWells {
         };
     };
     class UGL_40x36 {
-        VN_grenades[] = {
+        VN_gredammo[] = {
             "vn_40mm_m381_he_mag",
             "vn_40mm_m406_he_mag",
             "vn_40mm_m397_ab_mag",
