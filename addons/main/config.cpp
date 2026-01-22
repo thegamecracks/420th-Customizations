@@ -21,6 +21,9 @@ class CfgVehicles {
     class B_CivilianBackpack_01_Base_F : Bag_Base {
         maximumLoad = 320; // 240
     };
+    class B_Messenger_Base_F : Bag_Base {
+        maximumLoad = 320; // 140
+    };
 };
 
 class CfgWeapons {
