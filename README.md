@@ -12,7 +12,7 @@ An Arma 3 mod for the 420th Delta community.
 
 - Increased capacity of Paramedic Outfit (30 => 500, 16.67x)
 - Increased capacity of Everyday/Sports Backpacks (240 => 320, 1.33x)
-- Allowed loading vanilla magazines into modded weapons (CUP, NIArms, RHS)
+- Allowed loading vanilla magazines into modded weapons (CUP, NIArms, RHS, SOG)
 
 ## Installation
 
