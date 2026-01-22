@@ -32,6 +32,7 @@ An Arma 3 mod for the 420th Delta community.
 | Messenger Bag        |      140 | 320 |  2.29x |
 | Paramedic Outfit     |       30 | 500 | 16.67x |
 | Sports Backpack      |      240 | 320 |  1.33x |
+| Tracksuit            |       40 | 160 |     4x |
 
 ## Installation
 
