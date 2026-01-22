@@ -123,6 +123,31 @@ class CfgWeapons {
             containerClass = "Supply80"; // "Supply20"
         };
     };
+    class U_C_IDAP_Man_cargo_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_C_IDAP_Man_Jeans_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_C_IDAP_Man_shorts_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_C_IDAP_Man_Tee_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_C_IDAP_Man_Teeshorts_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
     class U_C_Paramedic_01_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply500"; // "Supply30"
