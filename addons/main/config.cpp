@@ -7,6 +7,7 @@ class CfgPatches {
         requiredVersion = 2.20;
         requiredAddons[] = {
             "A3_Data_F_AoW_Loadorder",
+            "A3_Data_F_Enoch_Loadorder",
             "A3_Data_F_Orange_Loadorder",
         };
         skipWhenMissingDependencies = 0;
@@ -179,6 +180,11 @@ class CfgWeapons {
     class U_I_E_CBRN_Suit_01_EAF_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply120"; // "Supply30"
+        };
+    };
+    class U_O_R_Gorka_01_black_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply160"; // "Supply40"
         };
     };
     class Vest_Camo_Base;
