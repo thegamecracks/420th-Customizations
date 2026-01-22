@@ -38,6 +38,36 @@ class CfgVehicles {
 class CfgWeapons {
     class Uniform_Base;
     class UniformItem;
+    class U_C_ArtTShirt_01_v1_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_ArtTShirt_01_v2_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_ArtTShirt_01_v3_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_ArtTShirt_01_v4_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_ArtTShirt_01_v5_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
+    class U_C_ArtTShirt_01_v6_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply80"; // "Supply20"
+        };
+    };
     class U_C_Paramedic_01_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply500"; // "Supply30"
