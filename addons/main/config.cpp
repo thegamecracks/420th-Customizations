@@ -30,6 +30,9 @@ class CfgVehicles {
     class B_AssaultPack_Base: Bag_Base {
         maximumLoad = 320; // 160
     };
+    class B_FieldPack_Base: Bag_Base {
+        maximumLoad = 320; // 200
+    };
 };
 
 class CfgWeapons {
