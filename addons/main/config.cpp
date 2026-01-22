@@ -43,4 +43,11 @@ class CfgWeapons {
             containerClass = "Supply500"; // "Supply30"
         };
     };
+    class Vest_Camo_Base;
+    class VestItem;
+    class V_LegStrapBag_base_F : Vest_Camo_Base {
+        class ItemInfo : VestItem {
+            containerClass = "Supply300"; // "Supply80"
+        };
+    };
 };
