@@ -188,7 +188,7 @@ class CfgVehicles {
             };
         };
     };
-    class Heli_light_03_base_F : Heli_Light_01_base_F {
+    class Heli_light_03_base_F : Helicopter_Base_F {
         class Components : Components {
 
         };
