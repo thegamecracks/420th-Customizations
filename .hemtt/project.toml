@@ -6,7 +6,7 @@ mainprefix = "z"
 [version]
 major = 2026
 minor = 1
-patch = 15
+patch = 23
 
 [files]
 include = [
