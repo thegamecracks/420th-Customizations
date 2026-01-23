@@ -6,7 +6,11 @@ class CfgPatches {
 
         requiredVersion = 2.20;
         requiredAddons[] = {
-            // FIXME: insert GM required addons
+            "gm_weapons_rifles_g11",
+            "gm_weapons_rifles_hk33",
+            "gm_weapons_rifles_sg550",
+            "gm_weapons_machineguns_g8",
+            "gm_weapons_sniperrifles_psg1",
         };
         skipWhenMissingDependencies = 1;
         skipWhenAnyAddonPresent[] = {"vmagcompatibility"};
