@@ -8,6 +8,8 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_jam",
             "weapons_f_vietnam_c",
+            "weapons_f_vietnam_03_c",
+            "weapons_f_vietnam_04_c",
         };
         skipWhenMissingDependencies = 1;
 
