@@ -142,6 +142,11 @@ class CfgWeapons {
             containerClass = "Supply120"; // "Supply30"
         };
     };
+    class U_C_IDAP_Man_casual_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply30"
+        };
+    };
     class U_C_IDAP_Man_Jeans_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply120"; // "Supply30"
