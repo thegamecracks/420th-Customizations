@@ -17,6 +17,23 @@ class CfgPatches {
     };
 };
 
+#define MAGAZINES_40mm \
+    "vn_40mm_m381_he_mag", \
+    "vn_40mm_m406_he_mag", \
+    "vn_40mm_m397_ab_mag", \
+    "vn_40mm_m433_hedp_mag", \
+    "vn_40mm_m583_flare_w_mag", \
+    "vn_40mm_m661_flare_g_mag", \
+    "vn_40mm_m662_flare_r_mag", \
+    "vn_40mm_m695_flare_y_mag", \
+    "vn_40mm_m680_smoke_w_mag", \
+    "vn_40mm_m682_smoke_r_mag", \
+    "vn_40mm_m715_smoke_g_mag", \
+    "vn_40mm_m716_smoke_y_mag", \
+    "vn_40mm_m717_smoke_p_mag", \
+    "vn_40mm_m651_cs_mag", \
+    "vn_40mm_m576_buck_mag",
+
 // class ItemCore;
 // class Mode_SemiAuto;
 // class Mode_Burst;
@@ -77,21 +94,12 @@ class CfgMagazineWells {
     };
     class UGL_40x36 {
         fdelta_magwells_vn_magazines[] = {
-            "vn_40mm_m381_he_mag",
-            "vn_40mm_m406_he_mag",
-            "vn_40mm_m397_ab_mag",
-            "vn_40mm_m433_hedp_mag",
-            "vn_40mm_m583_flare_w_mag",
-            "vn_40mm_m661_flare_g_mag",
-            "vn_40mm_m662_flare_r_mag",
-            "vn_40mm_m695_flare_y_mag",
-            "vn_40mm_m680_smoke_w_mag",
-            "vn_40mm_m682_smoke_r_mag",
-            "vn_40mm_m715_smoke_g_mag",
-            "vn_40mm_m716_smoke_y_mag",
-            "vn_40mm_m717_smoke_p_mag",
-            "vn_40mm_m651_cs_mag",
-            "vn_40mm_m576_buck_mag",
+            MAGAZINES_40mm
+        };
+    };
+    class CBA_40mm_M203 {
+        fdelta_magwells_vn_magazines[] = {
+            MAGAZINES_40mm
         };
     };
 };
