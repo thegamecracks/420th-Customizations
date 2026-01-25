@@ -14,6 +14,7 @@ An Arma 3 mod for the 420th Delta community.
 - Allowed loading vanilla magazines into modded weapons (CUP, NIArms, RHS, SOG, GM)
 - Allowed loading modded pylons onto vanilla aircraft (CUP, RHS)
 - Allowed attaching RHS grips on NIArms weaponry
+- Allowed aimed usage of NVGs with modded optics (RHSUSAF)
 
 ## Capacity Changes
 
