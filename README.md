@@ -32,6 +32,7 @@ An Arma 3 mod for the 420th Delta community.
 | Leg Strap Bag (Back)    |       80 | 320 |     4x |
 | Leg Strap Bag (Vest)    |       80 | 300 |  3.75x |
 | Messenger Bag           |      140 | 320 |  2.29x |
+| Modular Carrier         |      130 | 300 |   2.3x |
 | Paramedic Outfit        |       30 | 500 | 16.67x |
 | Sports Backpack         |      240 | 320 |  1.33x |
 | Tracksuit               |       40 | 160 |     4x |

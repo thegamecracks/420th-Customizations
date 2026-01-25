@@ -37,7 +37,7 @@ class CfgVehicles {
 };
 
 class CfgWeapons {
-    // class ItemCore;
+    class ItemCore;
     // class MedikitItem;
     // class Medikit : ItemCore {
     //     class ItemInfo : MedikitItem {
@@ -217,8 +217,25 @@ class CfgWeapons {
             containerClass = "Supply160"; // "Supply40"
         };
     };
-    class Vest_Camo_Base;
+    class Vest_Camo_Base: ItemCore {
+        class ItemInfo;
+    };
     class VestItem;
+    class V_CarrierRigKBT_01_base_F : Vest_Camo_Base {
+        class ItemInfo : ItemInfo {
+            containerClass = "Supply300"; // "Supply60"
+        };
+    };
+    class V_CarrierRigKBT_01_heavy_base_F : V_CarrierRigKBT_01_base_F {
+        class ItemInfo : ItemInfo {
+            containerClass = "Supply300"; // "Supply130"
+        };
+    };
+    class V_CarrierRigKBT_01_light_base_F: V_CarrierRigKBT_01_base_F {
+        class ItemInfo : ItemInfo {
+            containerClass = "Supply300"; // "Supply130"
+        };
+    };
     class V_LegStrapBag_base_F : Vest_Camo_Base {
         class ItemInfo : VestItem {
             containerClass = "Supply300"; // "Supply80"
