@@ -187,6 +187,31 @@ class CfgWeapons {
             containerClass = "Supply120"; // "Supply30"
         };
     };
+    class U_I_E_Uniform_01_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply40"
+        };
+    };
+    class U_I_E_Uniform_01_officer_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply40"
+        };
+    };
+    class U_I_E_Uniform_01_shortsleeve_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply40"
+        };
+    };
+    class U_I_E_Uniform_01_sweater_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply40"
+        };
+    };
+    class U_I_E_Uniform_01_tanktop_F : Uniform_Base {
+        class ItemInfo : UniformItem {
+            containerClass = "Supply120"; // "Supply40"
+        };
+    };
     class U_O_R_Gorka_01_black_F : Uniform_Base {
         class ItemInfo : UniformItem {
             containerClass = "Supply160"; // "Supply40"
