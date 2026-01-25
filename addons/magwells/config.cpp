@@ -205,6 +205,12 @@ class CfgMagazineWells {
             "20Rnd_762x51_Mag",
         };
     };
+    class CBA_762x51_SCAR_EGLM {
+        fdelta_magwells_magazines[] = {
+            "10Rnd_Mk14_762x51_Mag",
+            "20Rnd_762x51_Mag",
+        };
+    };
     class CBA_762x51_G3 {
         fdelta_magwells_magazines[] = {
             "10Rnd_Mk14_762x51_Mag",
