@@ -220,7 +220,7 @@ class CfgWeapons {
     class Vest_Camo_Base: ItemCore {
         class ItemInfo;
     };
-    class VestItem;
+    // class VestItem;
     class V_CarrierRigKBT_01_base_F : Vest_Camo_Base {
         class ItemInfo : ItemInfo {
             containerClass = "Supply300"; // "Supply60"
@@ -237,7 +237,7 @@ class CfgWeapons {
         };
     };
     class V_LegStrapBag_base_F : Vest_Camo_Base {
-        class ItemInfo : VestItem {
+        class ItemInfo : ItemInfo {
             containerClass = "Supply300"; // "Supply80"
         };
     };
