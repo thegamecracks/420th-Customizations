@@ -44,13 +44,9 @@ class CfgVehicles {
     class Helicopter_Base_F : Helicopter {
         class Components;
     };
-    class Helicopter_Base_H : Helicopter_Base_F {
-        class Components;
-    };
+    class Helicopter_Base_H;
     class Heli_Transport_01_base_F : Helicopter_Base_H {
-        class Components : Components {
-
-        };
+        class Components;
     };
     // UH-80 Stub Wings
     class Heli_Transport_01_pylons_base_F : Heli_Transport_01_base_F {
@@ -132,15 +128,9 @@ class CfgVehicles {
             };
         };
     };
-    class Heli_Light_01_base_F : Helicopter_Base_H {
-        class Components : Components {
-
-        };
-    };
+    class Heli_Light_01_base_F;
     class Heli_Light_01_armed_base_F : Heli_Light_01_base_F {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Heli_Light_01_dynamicLoadout_base_F : Heli_Light_01_armed_base_F {
         class Components : Components {
@@ -165,7 +155,7 @@ class CfgVehicles {
                             "vn_b_rocket_pylon_uh1c_01",
                         };
                     };
-                    class PylonRight1 {
+                    class PylonRight1 : PylonLeft1 {
                         priority=5;
                         hardpoints[] = {
                             "DAR",
@@ -189,9 +179,7 @@ class CfgVehicles {
         };
     };
     class Heli_light_03_base_F : Helicopter_Base_F {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Heli_light_03_dynamicLoadout_base_F : Heli_light_03_base_F {
         class Components : Components {
@@ -216,7 +204,7 @@ class CfgVehicles {
                             "vn_b_rocket_pylon_uh1c_01",
                         };
                     };
-                    class PylonRight1 {
+                    class PylonRight1 : PylonLeft1 {
                         priority=5;
                         hardpoints[] = {
                             "DAR",
@@ -240,9 +228,7 @@ class CfgVehicles {
         };
     };
     class Heli_Light_02_base_F : Helicopter_Base_H {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Heli_Light_02_dynamicLoadout_base_F : Heli_Light_02_base_F {
         class Components : Components {
@@ -275,7 +261,7 @@ class CfgVehicles {
                             "vn_o_missile_pylon_mi2_01",
                         };
                     };
-                    class PylonRight1 {
+                    class PylonRight1 : PylonLeft1 {
                         priority=5;
                         hardpoints[] = {
                             "O_SKYFIRE","DAGR","DAR",
@@ -304,9 +290,7 @@ class CfgVehicles {
         };
     };
     class Heli_Attack_01_base_F : Helicopter_Base_F {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Heli_Attack_01_dynamicLoadout_base_F : Heli_Attack_01_base_F {
         class Components : Components {
@@ -426,9 +410,7 @@ class CfgVehicles {
         };
     };
     class Heli_Attack_02_base_F : Helicopter_Base_F {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Heli_Attack_02_dynamicLoadout_base_F : Heli_Attack_02_base_F {
         class Components : Components {
@@ -599,7 +581,7 @@ class CfgVehicles {
         };
     };
     class Plane_CAS_01_base_F : Plane_base_F {
-        class Components : Components {};
+        class Components;
     };
     class Plane_CAS_01_dynamicLoadout_base_F : Plane_CAS_01_base_F {
         class Components : Components {
@@ -696,7 +678,7 @@ class CfgVehicles {
         class Components : Components {
             class TransportPylonsComponent : TransportPylonsComponent {
                 class Pylons : Pylons {
-                    class Pylons1 {
+                    class Pylons1 : Pylons1 {
                         hardpoints[] = {
                             "B_MISSILE_PYLON",
                             "B_BOMB_PYLON",
@@ -1327,9 +1309,7 @@ class CfgVehicles {
         };
     };
     class Plane_Fighter_03_base_F : Plane_base_F {
-        class Components : Components {
-
-        };
+        class Components;
     };
     class Plane_Fighter_03_dynamicLoadout_base_F : Plane_Fighter_03_base_F {
         class Components : Components {
@@ -1397,7 +1377,7 @@ class CfgVehicles {
                                 "RHS_HP_AIM120",
                             };
                     };
-                    class pylons4 {
+                    class pylons4 : pylons1 {
                         hardpoints[] = {
                             "B_A143_BUZZARD_CENTER_PYLON",
                             "CUP_GSh23",
@@ -1423,7 +1403,7 @@ class CfgVehicles {
         class Components : Components {
             class TransportPylonsComponent : TransportPylonsComponent {
                 class pylons : pylons {
-                    class pylons1 {
+                    class pylons1 : pylons1 {
                         hardpoints[] =
                             {
                                 "B_ZEPHYR",
@@ -1593,17 +1573,12 @@ class CfgVehicles {
             };
         };
     };
-    class VTOL_Base_F : Plane_base_F {
-        class Components;
-    };
-    class VTOL_02_base_F : VTOL_Base_F {
-        class Components : Components {};
-    };
+    class VTOL_02_base_F;
     class VTOL_02_infantry_base_F : VTOL_02_base_F {
-           class Components : Components {};
+           class Components;
     };
     class VTOL_02_vehicle_base_F : VTOL_02_base_F {
-           class Components : Components {};
+           class Components;
     };
     class VTOL_02_infantry_dynamicLoadout_base_F : VTOL_02_infantry_base_F {
         class Components : Components {
@@ -1640,7 +1615,7 @@ class CfgVehicles {
                             "RHS_HP_FAB500",
                         };
                     };
-                    class PylonRight2 {
+                    class PylonRight2 : PylonRight1 {
                         hardpoints[] = {
                             "O_MISSILE_PYLON",
                             "O_BOMB_PYLON",
